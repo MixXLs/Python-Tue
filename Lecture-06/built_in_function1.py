@@ -4,7 +4,7 @@ length = len(num)
 print(f"Length of the list: {length}")
 
 total_sum = sum(num)
-print(f"SUm of all elements: {total_sum}")
+print(f"Sum of all elements: {total_sum}")
 
 max_value = max(num)
 print(f"Maximun value: {max_value}")
