@@ -11,15 +11,16 @@
 # readlines(): อ่านทุกบรรทัด 
 # file.write(): เขียนไฟล์
 
-
-with open("example.txt", "w") as file: #เขียนข้อความ
+#เขียนข้อความ
+with open("example.txt", "w") as file: 
     file.write("Hello world!\n")
     file.write("This is a new line.\n")
 
-
-with open("example.txt", "a") as file: #เพิ่มข้อความ
+#เพิ่มข้อความ
+with open("example.txt", "a") as file: 
     file.write("This line is appended.\n")
 
-with open("example.txt", "r") as file: #อ่านข้อความ
+#อ่านข้อความ
+with open("example.txt", "r") as file: 
     contents = file.read()
     print(contents)
