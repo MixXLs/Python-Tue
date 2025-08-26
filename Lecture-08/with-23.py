@@ -14,5 +14,5 @@
 with open("example.txt", "r") as file:
     line = file.readline()                  #อ่านที่ละบรรทัด
     while line:                             #รันต่อไปเรื่อยๆ จนกว่าข้อความจะหมด
-        print(line.strip())                 #.strip() อักขระพิเศษ เช่น \n
+        print(line.strip())                 #.strip() ลบอักขระพิเศษ เช่น \n
         line = file.readline()

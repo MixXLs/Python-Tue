@@ -9,7 +9,7 @@
 # read(): อ่านทั้งไฟล์
 # readline(): อ่านที่ละบรรทัด
 # readlines(): อ่านทุกบรรทัด 
-# file.write(): เขียนไฟล์
+# file.write(): เขียนไฟล์ ``
 
 num_emps = int(input("How many employee records do you want to create? "))
 #เปิดไฟล์สำหรับเขียน (เขียนทับไฟล์เก่า)
@@ -24,6 +24,6 @@ with open("employees.txt", "w") as emp_file:
         emp_file.write(name + '\n')
         emp_file.write(id_num + '\n')
         emp_file.write(dept + '\n')
-        print(emp_file)
+        print()
 
 print("Employee records written to employees.txt")

@@ -13,10 +13,10 @@
 
 with open("sales.txt","r") as sales_file:
     line = sales_file.readline()
-
-    while line != '': #ตรวจสอบ ถ้าเป็นสตริงว่าง '' ให้ออกจากloop
-
-        amount = float(line) # แปลงข้อความเป็นfloat
+    #ตรวจสอบ ถ้าเป็นสตริงว่าง '' ให้ออกจากloop
+    while line != '': 
+        # แปลงข้อความเป็นfloat
+        amount = float(line) 
         print(f"{amount:.2f}")
-
-        line = sales_file.readline() # อ่านบรรทัดถัดไปแล้ววน loop ต่อ
+        # อ่านบรรทัดถัดไปแล้ววน loop ต่อ
+        line = sales_file.readline() 

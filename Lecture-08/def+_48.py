@@ -1,5 +1,5 @@
 def example_a_plus_mode():
-    with open("example_a+.txt", "a+") as file:
+    with open("example_w+.txt", "a+") as file:
         file.seek(0)
 
         content = file.read()
